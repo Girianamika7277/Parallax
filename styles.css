@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(https://i.pinimg.com/736x/cc/3f/4f/cc3f4fc70ee2b92cadf8b04c8db75caf.jpg);
+  min-height: 100%;
+
+}
+.pimg2 {
+  background-image: url(https://www.itl.cat/pngfile/big/241-2410238_1920x1080-nature-3d-book-creative-wallpaper-hd-wallpapers.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(https://www.wallpapertip.com/wmimgs/29-291829_happy-earth-day-2016-hd-wallpaper-and-pictures.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.h1{
+    padding: 20px 70px;
+  text-align: center;
+  background-color: #282e34;
+  color: #ddd;
+}
+.section {
+  padding: 30px 60px;
+  text-align: center;
+}
+.section-light {
+    background-color: #282e34;
+    color: #ddd;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+footer{
+  background: #4070f4;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
